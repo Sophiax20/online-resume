@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-image: url('bg.png');
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parent {
+        height: 820px; width: 1300px; 
+        margin: 0 auto; 
+        background-color: rgb(255, 255, 255, .4); 
+        border-radius: 10px;
+    }
+
+    .picdiv {
+        border: 1px black solid; 
+        height: 250px; width: 250px; 
+        position: absolute; 
+        margin: 25px; 
+        border-radius: 10px;
+    }
+
+    .personal {
+        border: 1px solid black; 
+        height: 250px; width: 970px; 
+        position: absolute; 
+        margin: 25px; margin-left: 300px; 
+        border-radius: 10px;
+        line-height: 25px;
+    }
+
+    .skills {
+        border: 1px solid black; 
+        height: 237.5px; width: 250px; 
+        position: absolute; 
+        margin: 25px; margin-top: 300px; 
+        border-radius: 10px; 
+    }
+
+    .workexp1 {
+        border: 1px solid black; 
+        height: 495px; width: 475px; 
+        position: absolute; 
+        margin: 25px; margin-top: 300px; margin-left: 300px;
+        border-radius: 10px;
+        background-color: rgba(24, 24, 24, 0.5);
+    }
+
+    .workexp2 {
+        border: 1px solid black; 
+        height: 495px; width: 475px; 
+        position: absolute; 
+        margin: 25px; margin-top: 300px; margin-left: 795px;
+        border-radius: 10px;
+        background-color: rgba(24, 24, 24, 0.5);
+    }
+
+    .reference {
+        border: 1px solid black; 
+        height: 237.5px; width: 250px; 
+        position: absolute; 
+        margin: 25px; margin-top: 558px; 
+        border-radius: 10px; 
+    }
+
+    .workexp2 ul {
+        font-size: 18px;
+        color: white;
+        list-style-type: square;
+        margin: 10px;
+    }
+
+    .workexp2 li {
+        font-weight: bold;
+    }
+
+    .skills li {
+        font-size: 18px;
+        color: white;
+        list-style-type: square;
+        margin: 10px;
+    }
+    
+    .skills h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .workexp1 h2 {
+        color: white;
+        text-align: center;
+    }
+
+    .workexp1 ul {
+        font-size: 18px;
+        color: white;
+        list-style-type: square;
+        margin: 10px;
+    }
+
+    .workexp1 li {
+        font-weight: bold;
+    }
+
+    #margin {
+        margin-left: 15px;
+        color: white;
+    }
+
+    .reference ul {
+        font-size: 18px;
+        color: white;
+        list-style-type: square;
+        margin: 10px;
+    }
+
+    .reference a {
+        color: lightgray;
+    }
+
+@media screen and (max-width: 600px) {
+    .parent {
+        width: 570px;
+        height: 1900px;
+    }
+
+    .picdiv {
+        margin-left: 145.5px;
+    }
+
+    .personal {
+        opacity: 1;
+        margin: 8px;
+        margin-top: 310px;
+        width: 550px;
+    }
+
+    .reference {
+        opacity: 1;
+        margin-top: 580px;
+        margin-left: 293px;
+        width: 265px;
+    }
+
+    .skills {
+        opacity: 1;
+        margin-top: 580px;
+        margin-left: 8px;
+        width: 265px;
+    }
+
+    .workexp1 {
+        opacity: 1;
+        margin: 0;
+        margin-top: 840px;
+        margin-left: 8px;
+        width: 550px;
+    }
+
+    .workexp2 {
+        opacity: 1;
+        margin: 0;
+        margin-top: 1360px;
+        margin-left: 8px;
+        width: 550px;
+    }
+
+}
+</style>
+<body>
+    <div class="parent">
+        <!-- PICTURE DIV -->
+        <div class="picdiv"><img src="pic.jpg" style="width: 100%; height: 100%; border-radius: 10px;">
+        </div>
+        <!-- PERSONAL INFORMATION -->
+        <div class="personal">
+            <h1 id="margin" style="font-size: 50px;">Lozada, Sophia Joyce</h1>
+            <p id="margin" style="font-size: 22px;">Prk Tulungan, Talabis, Brgy Ibabang Iyam, Lucena City 4301</p>
+            <p id="margin">09307912805 / mariasophiajoyce17@gmail.com</p>
+            <p id="margin">March 20 , 2003</p>
+        </div>
+        <!-- SKILL SECTION -->
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Ngumingiti kahit inis na</li>
+                <li>Hindi na la-late</li>
+                <li>Friendly</li>
+                <li>Never nag taray</li>
+            </ul>
+        </div>
+        <!-- EDUCATIONA -->
+        <div class="workexp1">
+            <h2>EDUCATION</h2>
+            <ul>
+                <li>IBABANG IYAM ELEMENTARY SCHOOL</li>
+                <dd>Elementary</dd>
+                <dd>2010 - 2016</dd>
+                <li>QUEZON NATIONAL HIGH SCHOOL</li>
+                <dd>Junior High School</dd>
+                <dd>Grades - <b>With Honors</b></dd>
+                <dd>2016 - 2020</dd>
+                <li>QUEZON NATIONAL HIGH SCHOOL</li>
+                <dd>Senior High School / ICT</dd>
+                <dd>Grades - <b>With Honors</b></dd>
+                <dd>2020 - 2022</dd>
+                <li>DALUBHASAAN NG LUNGSOD NG LUCENA</li>
+                <dd>College / BSIT</dd>
+                <dd>Grades - <b>Pursuing</b></dd>
+                <dd>2022 - Current</dd>
+            </ul>
+        </div>
+        <!-- WORK EXPERIENCE 2 -->
+        <div class="workexp2">
+            <ul>
+                <li>THE 17TH MERCHAN STREET CONCEPT STORE</li>
+                <dd>Saleslady </dd>
+                <dd>2018 - 2020</dd>
+                <li>SIOMAI KING (QMC BRANCH)</li>
+                <dd>Service Crew </dd>
+                <dd>March 2020 - June 2020</dd>
+                <li>FOODPANDA</li>
+                <dd>Onground Sales Promoter </dd>
+                <dd>January 2021 - March 2021</dd>
+                <li>LE BISTRO RESTAURANT (PASEO DE LUCENA FOOD GARDEN)</li>
+                <dd>Service Crew </dd>
+                <dd>March 10,2023 - June 5,2023</dd>
+                <li>PASEO DE LUCENA FOOD GARDEN</li>
+                <dd>Maintenance / Social Media Manager</dd>
+                <dd>June 2023 - August 2023</dd>
+                <li>BOSS HAMEL</li>
+                <dd>Service Crew</dd>
+                <dd>September 2023 - October 2023</dd>
+                <li>GREENWICH LUCENA BAYAN</li>
+                <dd>Kitchen Staff</dd>
+                <dd>November 2023 - Current</dd>
+            </ul>
+        </div>
+        <div class="reference">
+            <ul>
+                <li>Erma Dayate - Manager</li>
+                <dd>The 17th Merchan Street Concept Store</dd>
+                <a href="https://www.facebook.com/Lancer05"><dd>Facebook</dd></a>
+                <li>Jhoana Hilario - Finances</li>
+                <dd>Foodpanda</dd>
+                <dd>09086529780</dd>
+                <li>Aira Jabola - Manager</li>
+                <dd>Greenwich</dd>
+                <a href=""><dd>Facebook</dd></a>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
